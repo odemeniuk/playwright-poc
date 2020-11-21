@@ -1,4 +1,4 @@
-# kb-playwright-tests
+# playwright-poc
 
 **Automation test framework**
 
