@@ -1,0 +1,35 @@
+{
+  "name": "playwright-poc",
+  "version": "1.0.0",
+  "description": "An automation test framework which is based on playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odemeniuk/playwright-poc.git"
+  },
+  "author": "Oleksandr Demeniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odemeniuk/playwright-poc/issues"
+  },
+  "homepage": "https://github.com/odemeniuk/playwright-poc#readme",
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ],
+    "reporters": [
+      "default",
+      "jest-html-reporters"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-html-reporters": "^2.1.0",
+    "jest-playwright-preset": "^1.4.1",
+    "playwright": "^1.6.2"
+  }
+}
